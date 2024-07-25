@@ -1,0 +1,105 @@
+export const rebateFormConstants = {
+    "panelHeader": "Smart Thermostat rebate - OK",
+    "section1Header": "Personal Info",
+    "section1SubHeader": "Description of Section",
+    "section2Header": "Building Info",
+    "section2SubHeader": "Description of Section",
+    "section3Header": "Smart Therostat Type",
+    "section3SubHeader": "Description of Section",
+    "section4Header": "Documentation",
+    "sectio41SubHeader": "Description of Section",
+    "section5Header": "Signature & Date",
+    "section5SubHeader": "Description of Section",
+    'businessAccount': 'For business service accounts, Please contact our Business Customer Support (Business Advantage Group) toll free at 888-988-9747',
+    'inactiveAccount': 'Account Not Active',
+    'customerName': {
+        'label': 'Customer Name',
+        'placeHolder': 'Customer Name',
+        'errorMessage': 'Please enter a valid customer name',
+    },
+    'ogeAccount': {
+        'label': 'OG&E Account #',
+        'placeHolder': 'OG&E Account',
+        'errorMessage': 'Please enter a valid OG&E Account',
+    },
+    'serviceAddress': {
+        'label': 'Service Address',
+        'placeHolder': 'Service Address',
+        'errorMessage': 'Please enter a valid address',
+    },
+    'mailingAddress': {
+        'label': 'Mailing Address',
+        'placeHolder': 'Mailing Address',
+        'errorMessage': 'Please enter a valid mailing address',
+    },
+    'aptSuite': {
+        'label': 'Apt/ Suite/ Other',
+        'placeHolder': 'Apt/ Suite',
+        'errorMessage': 'Please enter a valid apt/ suite/ other',
+    },
+    'city': {
+        'label': 'City',
+        'placeHolder': 'City',
+        'errorMessage': 'Please enter a valid city',
+    },
+    'state': {
+        'label': 'State',
+        'placeHolder': 'State',
+        'errorMessage': 'Please enter a valid state',
+    },
+    'zipCode': {
+        'label': 'Zip Code',
+        'placeHolder': 'Zip Code',
+        'errorMessage': 'Please enter a valid zip code',
+    },
+    'phoneNo': {
+        'label': 'Phone',
+        'placeHolder': '(XXX) XXX-XXXX',
+        'errorMessage': 'Please enter a valid phone number',
+    },
+    'email': {
+        'label': 'Email',
+        'placeHolder': 'user@domain.com',
+        'errorMessage': 'Please enter a valid email',
+    },
+    'thStatType': {
+        'label': 'Existing Thermostat Type?',
+        'placeHolder': 'Thermostat Type',
+        'errorMessage': 'Please enter a valid existing thermostat type',
+    },
+    'prHeatCoolType': {
+        'label': 'Primary Heating and Cooling Type?',
+        'placeHolder': 'Heating and Cooling type',
+        'errorMessage': 'Please enter a valid primary heating and cooling type',
+    },
+    'brand': {
+        'label': 'Brand/Manufacturer',
+        'placeHolder': 'Brand/Manufacturer',
+        'errorMessage': 'Please enter a valid brand or manufacturer',
+    },
+    'model': {
+        'label': 'Model #',
+        'placeHolder': 'Model',
+        'errorMessage': 'Please enter a valid model',
+    },
+    'purchaseDate' : {
+        'label' : 'Purchase Date',
+        'placeHolder' : 'MM/DD/YYYY',
+        'errorMessage' : 'Please enter a valid date of purchase',
+    },
+    'installationDate' : {
+        'label' : 'Installation date',
+        'placeHolder' : 'MM/DD/YYYY',
+        'errorMessage' : 'Please enter a valid date of installation',
+    },
+    'signature': {
+        'label': 'Signature',
+        'placeHolder': 'Signature',
+        'errorMessage': 'Please enter a valid signature',
+    },
+    'signDate': {
+        'label': 'Date',
+        'placeHolder': 'Date',
+        'errorMessage': 'Please enter a valid date',
+    },
+}

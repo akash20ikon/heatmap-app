@@ -1,0 +1,14 @@
+<h2>{{dataMonth}}</h2>
+<div class="container">
+<div class="frequency">
+<div><span class="low-box"></span>Low Frequency</div><br>
+<div><span class="mid-box"></span>Mid Frequency</div><br>
+<div><span class="high-box"></span>High Frequency</div><br>
+</div>
+<mat-grid-list cols="4" rowHeight="7:3">
+    <mat-grid-tile *ngFor="let date of dates" [ngClass]="date.slice(0,1)=='L' ? 'cell-low' : 
+    date.slice(0,1)=='M' ? 'cell-mid' : 'cell-high'">
+        {{date.slice(2,12)}}
+    </mat-grid-tile>
+</mat-grid-list>
+</div>
